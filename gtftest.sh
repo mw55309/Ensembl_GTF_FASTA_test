@@ -27,8 +27,8 @@ zcat Homo_sapiens.GRCh38.$1.gtf.gz | awk '$3=="transcript"' \
 wc -l transcript_ids_from_gtf
 
 
-/exports/cmvm/eddie/eb/groups/watson_grp/gtftest/setdiff.R transcript_ids_from_fasta transcript_ids_from_gtf > ufasta.txt
-/exports/cmvm/eddie/eb/groups/watson_grp/gtftest/setdiff.R transcript_ids_from_gtf transcript_ids_from_fasta > ugtf.txt
+setdiff.R transcript_ids_from_fasta transcript_ids_from_gtf > ufasta.txt
+setdiff.R transcript_ids_from_gtf transcript_ids_from_fasta > ugtf.txt
 
 echo "Transcripts in FASTA but not in GTF:"
 wc -l ufasta.txt
