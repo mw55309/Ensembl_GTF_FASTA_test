@@ -19,11 +19,11 @@ gtftest.sh 86
 
 Rather annoyingly, behaviour of Ensembl has changed between release 83 and 86:
 
-```sh
+<pre>
 # release 83
 ...
 The transcripts unique to the GTF file are of type:
-   ```**2306 misc_RNA**```
+<b>2306 misc_RNA</b>
    1069 TEC
 The transcripts NOT unique to the GTF file are of type:
 ...
@@ -34,7 +34,7 @@ The transcripts NOT unique to the GTF file are of type:
      22 Mt_tRNA
       3 non_coding
 ...
-```
+</pre>
 
 Full output for release 83 is:
 
