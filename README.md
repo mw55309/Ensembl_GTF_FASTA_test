@@ -1,7 +1,7 @@
 # Ensembl_GTF_FASTA_test
 Hacky scripts to compare Ensembl GTF to FASTA files.  
 
-Basically if you compare Ensembl GTF files to the Ensembl FTP files, they don't contain the same transcripts.
+Basically if you compare Ensembl GTF files to the Ensembl FASTA files, they don't contain the same transcripts.
 
 The scripts download data from the Ensembl FTP server and saves locally, so make sure you have space.
 
