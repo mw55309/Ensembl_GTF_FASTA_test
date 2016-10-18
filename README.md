@@ -23,7 +23,7 @@ Rather annoyingly, behaviour of Ensembl has changed between release 83 and 86:
 # release 83
 ...
 The transcripts unique to the GTF file are of type:
-   ```**2306 misc_RNA```**
+   ```**2306 misc_RNA**```
    1069 TEC
 The transcripts NOT unique to the GTF file are of type:
 ...
