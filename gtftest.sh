@@ -1,7 +1,5 @@
 #!/bin/bash
 
-module add R/3.2.2
-
 echo "Downloading cDNA"
 wget -q ftp://ftp.ensembl.org/pub/release-$1/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
 
